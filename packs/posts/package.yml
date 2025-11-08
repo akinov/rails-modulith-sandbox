@@ -1,8 +1,8 @@
 # This package contains all posts-related functionality
 enforce_dependencies: true
-enforce_privacy: true
 
 # Dependencies
 dependencies:
   - "."
+  - "packs/common"
 
