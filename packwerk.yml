@@ -1,6 +1,10 @@
 # See: Setting up the configuration file
 # https://github.com/Shopify/packwerk/blob/main/USAGE.md#configuring-packwerk
 
+# Load packwerk-extensions for privacy checker
+require:
+  - packwerk-extensions
+
 # List of patterns for folder paths to include
 # include:
 # - "**/*.{rb,rake,erb}"

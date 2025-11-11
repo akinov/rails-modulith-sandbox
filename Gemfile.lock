@@ -157,6 +157,11 @@ GEM
       prism (>= 0.25.0)
       sorbet-runtime (>= 0.5.9914)
       zeitwerk (>= 2.6.1)
+    packwerk-extensions (0.3.0)
+      packwerk (>= 2.2.1)
+      railties (>= 6.0.0)
+      sorbet-runtime
+      zeitwerk
     parallel (1.27.0)
     parser (3.3.10.0)
       ast (~> 2.4.1)
@@ -256,6 +261,7 @@ PLATFORMS
 DEPENDENCIES
   debug
   packwerk
+  packwerk-extensions
   puma (>= 5.0)
   rails (~> 8.1.1)
   sqlite3 (>= 2.1)

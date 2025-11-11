@@ -1,5 +1,6 @@
 # This package contains common/shared code used across the application
 enforce_dependencies: true
+enforce_privacy: true
 
 # Dependencies
 dependencies: []
